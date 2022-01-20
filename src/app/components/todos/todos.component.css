@@ -41,18 +41,19 @@
 
 .todo-submit {
     display: block;
-    width: 100%;
+    width: 50%;
     max-width: 200px;
     appearance: none;
     border: none;
     outline: none;
     background: none;
-    background-color: #FE4880;
+    background-color: #771835;
     color: white;
     margin: 15px auto;
-    padding: 10px 15px;
+    padding: 5px;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .delete {
@@ -64,4 +65,10 @@
     border-top-left-radius: 25%;
     background-color: rgb(28, 71, 28);
     cursor: pointer;
+}
+
+.todo-input {
+    width: 50%;
+    height: 75px;  
+    margin: 0 auto;
 }
