@@ -23,7 +23,7 @@
     flex: 1 1 100%;
 }
 
-.todo.done .contet {
+.todo.done .content {
     text-decoration: line-through;
 }
 
